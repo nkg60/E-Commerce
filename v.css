@@ -419,7 +419,7 @@ button:hover::before {
   right: -1000px;
   width: 400px;
   height: 100%;
-  background-color: rgb(152, 19, 19);
+  background-color: rgb(187, 201, 248);
   box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.1);
   transition: right 0.3s;
   padding: 20px;
