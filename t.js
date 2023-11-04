@@ -193,4 +193,14 @@ document.addEventListener("DOMContentLoaded", function () {
       detailsPopup.classList.remove("show");
     });
   }
+
+  function toggleMenu() {
+    var popup = document.getElementById("filter-popup");
+    if (popup.style.display === "none" || popup.style.display === "") {
+        popup.style.display = "block";
+    } else {
+        popup.style.display = "none";
+    }
+}
+
 });
